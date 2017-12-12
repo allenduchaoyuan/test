@@ -1,0 +1,16 @@
+#Today I can clone github server on my ubantu,I'm so pleasure.
+#And I want to  write some content for setup SSH and clone github.
+
+1.checking for existing SSH keys
+    before you generate an SSH key, you can check to see if you have any existing SSH keys.
+    1>.Open Terminal.
+    2>.Enter 'ls -al ~/.ssh' to see if existing SSH keys are present
+    3>.Check the directory list to see if you already have a public SSH key.
+
+    By default,the filenames of the pubilc keys are one of the following:
+    
+    >id_dsa.pub
+    >id_ecdsa.pub
+    >id_ed25519.pub
+    >id_rsa.pub
+    >if you don't have an existing public and private key pair,or don't
